@@ -36,11 +36,11 @@ namespace Dodger
         {
             InitializeComponent();
 
-            Process[] ps = Process.GetProcessesByName("RemotePlay");
+            Process[] ps = Process.GetProcessesByName("chiaki");
 
             if (ps.Length == 0)
             {
-                MessageBox.Show("RemotePlay not found!");
+                MessageBox.Show("Chiaki not found!");
                 return;
             }
 
